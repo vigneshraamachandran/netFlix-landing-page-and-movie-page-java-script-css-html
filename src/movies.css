@@ -1,0 +1,695 @@
+.background{
+    background-image: url("https://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg");
+    width: 100%;
+    position: fixed;
+    min-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position:absolute;
+}
+/* whole movie flimlist class------------------------------------------------------------------------------------------------------ */
+.flimlist{
+    display:block;
+    margin-top: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.fimlist2{
+    display:block;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.flimlist3{
+    display:block;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.flimlist4{
+    display:block;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+/* movies-list first row----------------------------------------------------------------------------------------------------------- */
+/* movies-list  movie 1----------------------------------------------------------------------------------------------------------- */
+
+.r1c1 img{
+    border-radius: 15px;
+    position: relative;
+    transform: translate(30px,0px);
+    box-shadow: 10px 10px 8px #696969;
+    width:230px;
+    height: 320px;
+}
+.r1c1:hover{
+   padding-left: 10px;
+}
+/* movies-list 2nd movie 2-------------------------------------------------------------------------------------------------------- */
+.r1c2 img{
+    width:230px;
+    border-radius: 15px;
+    height:320px;
+    transform: translate(285px,-320px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+}
+.r1c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+.r1c3 img{
+    width:230px;
+    border-radius: 15px;
+    height:320px;
+    transform: translate(540px,-640px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+    /* top+320 */
+}
+
+.r1c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4------------------------------------------------------------------------------------------------------- */
+.r1c4 img{
+    width:230px;
+    border-radius: 15px;
+    height:320px;
+    transform: translate(795px,-960px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r1c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+.r1c5 img{
+    width:230px;
+    border-radius: 15px;
+    height:320px;
+    transform: translate(1050px,-1280px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r1c5:hover{
+    padding-left: 15px;
+}
+/* movie-list  2 row*------------------------------------------------------------------------------------------------------------->*/
+/* movies-list 2nd movie 1-------------------------------------------------------------------------------------------------------- */
+.r2c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-1280px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r2c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r2c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-1600px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r2c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r2c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-1920px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r2c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r2c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-2240px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r2c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r2c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-2560px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r2c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r3c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-2560px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r3c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r3c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-2880px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r3c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r3c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-3200px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r3c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r3c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-3520px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r3c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r3c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-3840px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r3c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r4c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-3840px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r4c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r4c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-4160px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r4c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r4c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-4480px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r4c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r4c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-4800px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r4c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r4c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-5120px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r4c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r5c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-5120px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r5c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r5c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-5440px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r5c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r5c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-5760px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r5c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r5c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-6080px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r5c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r5c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-6400px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r5c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r6c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-6400px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r6c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r6c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-6720px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r6c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r6c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-7040px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r6c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r6c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-7360px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r6c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r6c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-7680px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r6c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r7c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-7680px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r7c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r7c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-8000px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r7c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r7c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-8320px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r7c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r7c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-8640px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r7c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r7c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-8960px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r7c5:hover{
+    padding-left: 15px;
+}
+/* movies row 3------------------------------------------------------------------------------------------------------------------- */
+/* movies-list 3nd movie 1-------------------------------------------------------------------------------------------------------- */
+
+.r8c1 img{
+    border-radius: 15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(30px,-8960px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+}
+.r8c1:hover{
+    padding-left: 15px;
+}
+/* movies-list 3nd movie 2-------------------------------------------------------------------------------------------------------- */
+
+.r8c2 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(285px,-9280px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+
+}
+.r8c2:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 3-------------------------------------------------------------------------------------------------------- */
+
+.r8c3 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    position: relative;
+    transform: translate(540px,-9600px);
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+     /* top+320 */
+    /* +255 each left-margin */
+}
+.r8c3:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 4-------------------------------------------------------------------------------------------------------- */
+
+.r8c4 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(795px,-9920px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r8c4:hover{
+    padding-left: 15px;
+}
+/* movies-list 2nd movie 5-------------------------------------------------------------------------------------------------------- */
+
+.r8c5 img{
+    border-radius:15px;
+    width:230px;
+    height:320px;
+    padding-top: 15px;
+    transform: translate(1050px,-10240px);
+    position: relative;
+    box-shadow: 10px 10px 8px #696969;
+    transition: 1.5ms;
+      /* +270 each left-margin */
+      /* +320 each top */
+}
+.r8c5:hover{
+    padding-left: 15px;
+}
